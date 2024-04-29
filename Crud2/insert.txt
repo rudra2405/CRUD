@@ -1,0 +1,8 @@
+                            <?php if($row['Gender'] == 'male'){?>
+                               <a href="#" class="btn btn-primary">Active</a>
+                         <?php  } else if($row['Gender'] == 'female'){?>
+                               <a href="#" class="btn btn-warning">InActive</a>
+                           <?php }
+                            else{
+                                echo "0";
+                            }?>
